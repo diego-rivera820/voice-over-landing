@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>VoiceCraft Studio</title><link rel="icon" href="assets/favicon.ico"><link rel="stylesheet" href="style.css"></head>
+<body>
+<header class="site-header">
+  <img src="assets/logo-voicecraft.png" class="logo" alt="VoiceCraft Studio">
+  <div class="titles">
+    <h1 id="title-es">VoiceCraft Studio</h1>
+    <p id="tag-es">Voces que mueven emociones.</p>
+    <h1 id="title-en" class="hidden">VoiceCraft Studio</h1>
+    <p id="tag-en" class="hidden">Voices that move emotions.</p>
+  </div>
+  <div class="lang-switch">
+    <button id="btn-en">EN</button>
+    <button id="btn-es" aria-pressed="true">ES</button>
+  </div>
+</header>
+<main class="container">
+  <section class="hero">
+    <div class="hero-left">
+      <h2 id="lead-es">Presentación</h2>
+      <p id="lead-text-es">Dando vida a historias, marcas y mensajes con locuciones profesionales en inglés y español. Tarifas negociables.</p>
+      <h2 id="lead-en" class="hidden">Presentation</h2>
+      <p id="lead-text-en" class="hidden">Bringing stories, brands and messages to life with voiceovers in English and Spanish. Rates negotiable.</p>
+      <div class="player-wrap">
+        <button id="playBtn" class="play-btn" aria-label="Listen demo">🎧 Listen Demo</button>
+        <div class="bar-wrap">
+          <audio id="audio" preload="none">
+            <source src="assets/audio/Demo_locucion.mp3" type="audio/mpeg">
+            Tu navegador no soporta audio.
+          </audio>
+          <input id="seek" type="range" min="0" max="100" value="0">
+        </div>
+      </div>
+    </div>
+    <aside class="hero-right">
+      <h3 id="contact-es">Contacto</h3>
+      <p id="contact-text-es">Contáctame por WhatsApp: <a href="https://wa.me/573205620926" target="_blank">+57 320 562 0926</a></p>
+      <h3 id="contact-en" class="hidden">Contact</h3>
+      <p id="contact-text-en" class="hidden">Contact on WhatsApp: <a href="https://wa.me/573205620926" target="_blank">+57 320 562 0926</a></p>
+      <p>Correo: <a href="mailto:voicecraftstudio@gmail.com">voicecraftstudio@gmail.com</a></p>
+    </aside>
+  </section>
+</main>
+<footer class="site-footer"><p>© 2025 VoiceCraft Studio</p></footer>
+<script src="script.js"></script></body></html>
